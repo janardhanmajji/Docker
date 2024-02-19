@@ -1,4 +1,8 @@
 
+Assume Docker as a lunch box, where we pack all the required things and we can eat the ingredients in the box wherever we are comfortable.
+
+Similarly, Docker is a container for packaging the application code, all the dependencies of the application along with the required software with the required version so that it runs in the same way in every environment (dev, prod, test etc.) in the same way the application runs in our machine.
+
 **Why Docker?**
 
 - **Consistency across environments**: It makes an application run in the same way across all the machines including all the Operating systems.
@@ -12,6 +16,27 @@
 **How Docker works?**
 
 Docker has two main concepts - [[Docker Images]] and [[Docker Containers]]
+
+**Docker Images**
+
+A Docker image is a standalone, lightweight and executable package that includes everything which is needed to run a piece of software.
+
+What does a Docker Image include:
+
+A docker image includes:
+- The code
+- Run time (like Node js)
+- Libraries
+- System Tools
+- Operating System
+
+**Docker Containers:**
+
+Docker Containers are runnable instances of Docker images. It takes the commands from the Docker image, execute them and make them as runnable instances.
+
+**Docker Volumes:**
+
+Persistent Data Storage mechanism. It allows data to be shared between the Docker container and the host machine (usually a computer, a server or among multiple containers). It is like a storage compartment outside the Docker container.
 
 **Docker Network:** 
 
@@ -60,3 +85,4 @@ Some commands:
 - ENTRY POINT - default command
 
 CMD can be overridden and ENTRY POINT cannot be overridden.
+
