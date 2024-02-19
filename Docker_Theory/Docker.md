@@ -2,8 +2,8 @@
 Assume Docker as a lunch box, where we pack all the required things and we can eat the ingredients in the box wherever we are comfortable.
 
 Similarly, Docker is a container for packaging the application code, all the dependencies of the application along with the required software with the required version so that it runs in the same way in every environment (dev, prod, test etc.) in the same way the application runs in our machine.
-
-$${\raggedright\color{red}\textsf{\textbf{Why Docker?}}}$$
+$$\raggedright$$
+$${\color{red}\textsf{\textbf{Why Docker?}}}$$
 
 - **Consistency across environments**: It makes an application run in the same way across all the machines including all the Operating systems.
 - **Isolation**: Maintains clear boundary between the dependencies of the app with other apps which helps us easy debugging and more security.
